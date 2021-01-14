@@ -1,2 +1,2 @@
 # Programmazione_Angular
- Esercizi con Angular
+ Esercizi con Angular 10

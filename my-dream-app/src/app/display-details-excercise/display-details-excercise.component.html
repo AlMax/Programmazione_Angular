@@ -1,0 +1,12 @@
+<p>Log Details Excercise</p>
+<button 
+    class="btn btn-primary" 
+    (click)="showOnClick($event)">
+    Display Details
+</button>
+
+<p *ngIf='show'>{{ password }}</p>
+<h3>Click: {{ count }}</h3>
+<h3>Timer: {{ showingTime/1000 }}</h3>
+
+

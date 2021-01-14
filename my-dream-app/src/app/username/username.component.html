@@ -1,0 +1,13 @@
+<input
+    type="text"
+    class="form-control" 
+    [(ngModel)]="username">
+
+<p>{{ username }}</p>
+
+<button
+    [disabled]="emptyUsername()"
+    class="btn btn-primary"
+    (click)="makeEmpty($event)"
+    >{{ bottoneStato }}
+</button>
